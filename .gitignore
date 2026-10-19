@@ -1,0 +1,9 @@
+node_modules/
+dist/
+threepointsmedia-hostinger.zip
+sauvegarde-threepointsmedia.zip
+sauvegarde.zip
+.env
+.env.*
+!.env.example
+.DS_Store

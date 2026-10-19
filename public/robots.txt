@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /ar/admin
+# The sitemap is generated during build when SITE_URL is configured.

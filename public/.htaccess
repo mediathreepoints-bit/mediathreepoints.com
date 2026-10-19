@@ -1,0 +1,7 @@
+# Keep the pre-rendered static routes as-is; let React resolve newly published tour slugs.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(?:ar/)?visites/[^/]+/?$ /index.html [L]
+</IfModule>
